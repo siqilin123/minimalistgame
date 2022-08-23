@@ -7,7 +7,8 @@ public class scorecalculator : MonoBehaviour
 {
     // Start is called before the first frame update
     public int score;
-    public GameObject player;
+    //public GameObject player;
+    public Text scoretext2;
     public Text scoretext;
     void Start()
     {
@@ -18,23 +19,8 @@ public class scorecalculator : MonoBehaviour
     void Update()
     {
         scoretext.text = "Score : " + score.ToString();
+        scoretext2.text = "Score : " + score.ToString();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "bullet")
-        {
-            Destroy(other.gameObject);
-            score++;
-        }
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.tag == "bullet")
-        {
-            Destroy(other.gameObject);
-            score++;
-        }
-    }
+    
 }

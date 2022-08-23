@@ -6,6 +6,8 @@ TagManager:
   tags:
   - line
   - bullet
+  - life
+  - player
   layers:
   - Default
   - TransparentFX

@@ -56,15 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\playermovement.cs" />
-    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UIGradient.cs" />
-    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UIGradientUtils.cs" />
-    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\SetDirty.cs" />
-    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UITextCornersGradient.cs" />
-    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UICornersGradient.cs" />
-    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UITextGradient.cs" />
-    <Compile Include="Assets\scorecalculator.cs" />
     <Compile Include="Assets\bulletbehaviour.cs" />
+    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UITextGradient.cs" />
+    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UICornersGradient.cs" />
+    <Compile Include="Assets\playermovement.cs" />
+    <Compile Include="Assets\scorecalculator.cs" />
+    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UIGradientUtils.cs" />
+    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UIGradient.cs" />
+    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UITextCornersGradient.cs" />
+    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\SetDirty.cs" />
+    <Compile Include="Assets\gamemanager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Unity-UIGradient-master\ProjectSettings\ProjectVersion.txt" />
