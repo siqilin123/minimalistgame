@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1453565B-281F-D109-0F17-6667FEF46AE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeShare.Runtime", "NativeShare.Runtime.csproj", "{D764EEA4-D7EA-AAD4-B40C-87B113DA4C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeShare.Editor", "NativeShare.Editor.csproj", "{A54F93CC-4249-A001-910D-0E65E473F227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{1453565B-281F-D109-0F17-6667FEF46AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1453565B-281F-D109-0F17-6667FEF46AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1453565B-281F-D109-0F17-6667FEF46AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D764EEA4-D7EA-AAD4-B40C-87B113DA4C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D764EEA4-D7EA-AAD4-B40C-87B113DA4C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D764EEA4-D7EA-AAD4-B40C-87B113DA4C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D764EEA4-D7EA-AAD4-B40C-87B113DA4C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54F93CC-4249-A001-910D-0E65E473F227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54F93CC-4249-A001-910D-0E65E473F227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54F93CC-4249-A001-910D-0E65E473F227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54F93CC-4249-A001-910D-0E65E473F227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

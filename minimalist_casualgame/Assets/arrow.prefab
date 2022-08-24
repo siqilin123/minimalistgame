@@ -151,6 +151,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ac122c5dfb12040b95f5404f58a8a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  gameoverscreen: {fileID: 0}
-  scorecalculator: {fileID: 0}
+  explosionprefab: {fileID: 1478317826016966305, guid: 6a6cc51895ac1e14ead12b2177a650ae, type: 3}

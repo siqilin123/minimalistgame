@@ -9,11 +9,12 @@ public class playermovement : MonoBehaviour
     //private Vector3 touchpos;
     public GameObject originobj;
     public GameObject player;
-    public float rotationradius = 3f; 
-
+    public float rotationradius = 3f;
+   
 
     void Start()
     {
+        
         var go2 = new GameObject { name = "Circle", tag = "line" };
         
         //go2.transform.Rotate(0, 0, 0);

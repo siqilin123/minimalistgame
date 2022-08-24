@@ -64,8 +64,9 @@
     <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UIGradientUtils.cs" />
     <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UIGradient.cs" />
     <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\UITextCornersGradient.cs" />
-    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\SetDirty.cs" />
     <Compile Include="Assets\gamemanager.cs" />
+    <Compile Include="Assets\Unity-UIGradient-master\Assets\Scripts\SetDirty.cs" />
+    <Compile Include="Assets\sharebutton.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Unity-UIGradient-master\ProjectSettings\ProjectVersion.txt" />
@@ -716,6 +717,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NativeShare.Runtime.csproj">
+      <Project>{D764EEA4-D7EA-AAD4-B40C-87B113DA4C82}</Project>
+      <Name>NativeShare.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="NativeShare.Editor.csproj">
+      <Project>{A54F93CC-4249-A001-910D-0E65E473F227}</Project>
+      <Name>NativeShare.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
