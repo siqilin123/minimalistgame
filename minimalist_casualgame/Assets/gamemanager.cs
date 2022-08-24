@@ -20,7 +20,7 @@ public class gamemanager : MonoBehaviour
         share.onClick.AddListener(sharebutton);
         if (isshared)
         {
-            player.transform.localScale = new Vector3(0.5f, 3, 1);
+            player.transform.localScale = new Vector3(3, 0.08f, 1);
         }
         //timepast = Time.deltaTime;
     }
@@ -38,9 +38,7 @@ public class gamemanager : MonoBehaviour
 
     private void Firebullet()
     {
-        Vector2 offset = Random.onUnitSphere * Random.Range(3, 10);
-        //var radians =  2*Mathf.PI / num*i
-        //var spawndir = new Vector3 (Mathf.Cos(radian))
+        Vector2 offset = Random.onUnitSphere * Random.Range(6, 12);
         Instantiate(bulletprefab, new Vector2(offset.x, offset.y), Quaternion.identity);
     }
 

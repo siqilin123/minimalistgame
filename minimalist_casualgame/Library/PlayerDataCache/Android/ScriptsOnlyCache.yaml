@@ -1,10 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - UICornersGradient
     - UIGradient
     - bulletbehaviour
+    - gamemanager
     - playermovement
     - scorecalculator
+    - sharebutton
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -46,6 +49,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 50
@@ -59,27 +64,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1486}
+      Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 2068}
+      Script: {instanceID: 1542}
     - Class: 114
-      Script: {instanceID: 2434}
+      Script: {instanceID: 2082}
     - Class: 114
-      Script: {instanceID: 2580}
+      Script: {instanceID: 2448}
     - Class: 114
-      Script: {instanceID: 2750}
+      Script: {instanceID: 2598}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 3722}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 20014}
+      Script: {instanceID: 3210}
     - Class: 114
-      Script: {instanceID: 20558}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 21956}
+      Script: {instanceID: 3744}
+    - Class: 114
+      Script: {instanceID: 3898}
+    - Class: 114
+      Script: {instanceID: 4108}
+    - Class: 114
+      Script: {instanceID: 4778}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -87,6 +98,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -117,6 +132,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: c9ec852839da03f50328b65764761083
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: bulletbehaviour
   - hash:
       serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7
@@ -191,6 +212,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeShare.Runtime.dll
+    namespaceName: NativeShareNamespace
+    className: NSShareResultCallbackiOS
+  - hash:
+      serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -237,6 +264,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: aeb18a89d94bee2209d37aabd28aa392
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UITextGradient
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -371,6 +404,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 65555cc9cb1f75072d0f6ee9ecd39fe2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UICornersGradient
+  - hash:
+      serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -405,6 +444,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 420a48bf53212c0d8d3bec519f126143
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sharebutton
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -455,7 +500,7 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
-      Hash: 103afa0c178f9e61b6582f02c0ebb594
+      Hash: 6164a86497844f41e4ae4d93eb671c8c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: playermovement
@@ -489,6 +534,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 027b806522fa1b965595f921b7b13c12
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: scorecalculator
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -527,6 +578,12 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
+      Hash: 672d2b4929510ad7ec5577d94b50f05c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIGradient
+  - hash:
+      serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -557,6 +614,12 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
+      Hash: 65555cc9cb1f75072d0f6ee9ecd39fe2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UITextCornersGradient
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
@@ -581,6 +644,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeShare.Runtime.dll
+    namespaceName: NativeShareNamespace
+    className: NSCallbackHelper
+  - hash:
+      serializedVersion: 2
       Hash: 5cc439bf63c0539d39588e69465ac2ab
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -591,6 +660,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5c77c5bdc05b44ad72f245db66856b5b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: gamemanager
   - hash:
       serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
@@ -623,47 +698,11 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 672d2b4929510ad7ec5577d94b50f05c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIGradient
-  - hash:
-      serializedVersion: 2
       Hash: 63be63d902f314fae3cae0911aae8b30
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SetDirty
-  - hash:
-      serializedVersion: 2
-      Hash: 65555cc9cb1f75072d0f6ee9ecd39fe2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UITextCornersGradient
-  - hash:
-      serializedVersion: 2
-      Hash: 65555cc9cb1f75072d0f6ee9ecd39fe2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UICornersGradient
-  - hash:
-      serializedVersion: 2
-      Hash: aeb18a89d94bee2209d37aabd28aa392
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UITextGradient
-  - hash:
-      serializedVersion: 2
-      Hash: c482b9275c3e9c981be2e0b6e1fef31c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: scorecalculator
-  - hash:
-      serializedVersion: 2
-      Hash: bc2afe483f4c9de34fc092676797b9da
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: bulletbehaviour
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Si Qi/Downloads/test11111.apk
+  playerPath: C:/Users/Si Qi/Downloads/finalver.apk

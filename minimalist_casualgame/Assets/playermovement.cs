@@ -10,8 +10,8 @@ public class playermovement : MonoBehaviour
     public GameObject originobj;
     public GameObject player;
     public float rotationradius = 3f;
-   
 
+    public GameObject selectedObject;
     void Start()
     {
         
@@ -21,13 +21,14 @@ public class playermovement : MonoBehaviour
         go2.transform.Translate(originobj.transform.position);
         DrawCircle(go2, 3, 0.05f);
 
-        player.transform.position = new Vector3(originobj.transform.position.x - 3f, 0, 0);
+        player.transform.position = new Vector3(originobj.transform.position.x, originobj.transform.position.y, 0);
     }
     public float startAngle = 360.0f;
     public float angleTuchandX;    
 
     void Update()
     {
+        //for mobile which i cant really test out anymore as phone RIPed
         GameObject go2 = GameObject.FindWithTag("line");
         go2.transform.position = originobj.transform.position;
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
@@ -57,6 +58,8 @@ public class playermovement : MonoBehaviour
                 transform.eulerAngles = new Vector3(0, 0, angle);
             }
         }
+
+
     }
         // Update is called once per frame
         void Handsoff()
@@ -79,6 +82,7 @@ public class playermovement : MonoBehaviour
         {
             if (vHit.transform.tag == "line")
             {
+                Debug.Log("HIT");
                 //Destroy(vHit.collider.gameObject);
                 Vector3 v = touchPos - origin;
                 Vector3 new_pos = origin + v.normalized * rotationradius;

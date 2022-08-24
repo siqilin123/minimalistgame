@@ -37,12 +37,12 @@ public class sharebutton : MonoBehaviour
 		Destroy(ss);
 
 		new NativeShare().AddFile(filePath)
-			.SetSubject("Shatter").SetText("Hello world!").SetUrl("https://github.com/siqilin123/minimalistgame")
+			.SetSubject("Shatter").SetText(sharemsg).SetUrl("https://github.com/siqilin123/minimalistgame")
 			.SetCallback((result, shareTarget) => Debug.Log("Share result: " + result + ", selected app: " + shareTarget))
 			.Share();
 
 		// Share on WhatsApp only, if installed (Android only)
-		if( NativeShare.TargetExists( "com.whatsapp" ) )
-			new NativeShare().AddFile( filePath ).AddTarget( "com.whatsapp" ).Share();
+		//if( NativeShare.TargetExists( "com.whatsapp" ) )
+		//	new NativeShare().AddFile( filePath ).AddTarget( "com.whatsapp" ).Share();
 	}
 }
